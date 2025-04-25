@@ -33,6 +33,54 @@ print("La lista resultante es:", mi_lista)
 
 
 
+
+
+
+
+
+
+
+
+#4) 
+# # Lista inicial
+animales = ["perro", "gato", "conejo", "pez"]
+
+# Reemplazar el segundo valor (índice 1) con "loro"
+animales[1] = "loro"
+
+# Reemplazar el último valor (índice -1) con "oso"
+animales[-1] = "oso"
+
+print("La lista resultante es:", animales)
+
+
+
+
+
+#5) se utiliza el método remove() para eliminar el valor máximo de la lista, que se obtiene con max(numeros). El valor máximo es 22.
+
+
+
+#6) Crear una lista con números del 10 al 30 (incluído), haciendo saltos de 5 en 5 y mostrar por 
+#pantalla los dos primeros.
+
+numeros = list(range(10, 31, 5))
+print(numeros[:2])
+
+
+
+#7) Reemplazar los dos valores centrales (índices 1 y 2) de la lista “autos” por dos nuevos valores 
+#cualesquiera. 
+
+autos = ["sedan", "polo", "suran", "gol"] 
+
+autos[1] = "palio"
+autos[2] = "cronos"
+
+print(autos)
+
+
+
 #8) Crear una lista vacía llamada "dobles" y agregar el doble de 5, 10 y 15 usando append 
 #directamente. Imprimir la lista resultante por pantalla. 
 
@@ -79,48 +127,3 @@ lista_anidada = [15, True, [25.5, 57.9, 30.6], False]
 
 #Imprimir la lista resultante por pantalla.
 print(lista_anidada)
-
-
-
-
-
-
-
-
-#4) 
-# # Lista inicial
-animales = ["perro", "gato", "conejo", "pez"]
-
-# Reemplazar el segundo valor (índice 1) con "loro"
-animales[1] = "loro"
-
-# Reemplazar el último valor (índice -1) con "oso"
-animales[-1] = "oso"
-
-print("La lista resultante es:", animales)
-
-
-
-
-
-#5) se utiliza el método remove() para eliminar el valor máximo de la lista, que se obtiene con max(numeros). El valor máximo es 22.
-
-
-
-#6) Crear una lista con números del 10 al 30 (incluído), haciendo saltos de 5 en 5 y mostrar por 
-#pantalla los dos primeros.
-
-numeros = list(range(10, 31, 5))
-print(numeros[:2])
-
-
-
-#7) Reemplazar los dos valores centrales (índices 1 y 2) de la lista “autos” por dos nuevos valores 
-#cualesquiera. 
-
-autos = ["sedan", "polo", "suran", "gol"] 
-
-autos[1] = "palio"
-autos[2] = "cronos"
-
-print(autos)
