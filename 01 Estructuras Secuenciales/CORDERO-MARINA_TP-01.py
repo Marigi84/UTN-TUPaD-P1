@@ -79,3 +79,74 @@ x = x - y  # x = 30 - 10 = 20
 
 # Mostrar valores después del intercambio
 print(f"Después del intercambio: x = {x}, y = {y}")
+
+
+# Ejercicio 7
+
+# Solicitar peso y altura al usuario
+peso = float(input("Ingrese su peso en kg: "))
+altura = float(input("Ingrese su altura en metros: "))
+
+# Calcular el IMC
+imc = peso / (altura ** 2)
+
+# Mostrar resultado
+print(f"Tu IMC es: {imc:.1f}")
+
+
+
+# Ejercicio 8
+
+# 2. Calcular y mostrar
+# a) Cantidad total de letras (sin contar espacios)
+total_letras = len(nombre.replace(" ", ""))
+print(f"Cantidad total de letras: {total_letras}")
+
+# b) Primeras 3 letras del nombre
+primeras_tres = nombre[:3]
+print(f"Primeras 3 letras: {primeras_tres}")
+
+# c) Nombre con letras mayúsculas y minúsculas alternadas
+resultado = ""
+for i in range(len(nombre)):
+    if i % 2 == 0:
+        resultado += nombre[i].upper()
+    else:
+        resultado += nombre[i].lower()
+print(f"Nombre alternado: {resultado}")
+
+
+#Ejercicio 9
+
+# 1. Declarar variables
+a = 7.5
+b = 3.2
+
+# 2. Calcular y mostrar
+# a) Suma
+suma = a + b
+print(f"Suma (a + b): {suma}")
+
+# b) Redondeo de la división a 2 decimales
+division = round(a / b, 2)
+print(f"División redondeada (a / b): {division}")
+
+# c) Potencia
+potencia = a ** b
+print(f"Potencia (a ** b): {potencia}")
+
+
+
+#Ejercicio 10
+# 1. Pedir el precio original
+precio_original = float(input("Ingrese el precio original del producto: "))
+
+# 2. Pedir el porcentaje de descuento
+descuento = float(input("Ingrese el porcentaje de descuento: "))
+
+# 3. Calcular el precio final
+precio_final = precio_original - (precio_original * (descuento / 100))
+#precio_final = precio_original 
+
+# 4. Mostrar el precio con descuento
+print(f"El precio final con descuento es: ${precio_final:.2f}")
